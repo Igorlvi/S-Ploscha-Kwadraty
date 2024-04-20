@@ -26,7 +26,7 @@ square = patches.Rectangle((0, 0), a, a, edgecolor='grey', facecolor='none')
 ax.add_patch(square)
 plt.xlim(-1, a+2)
 plt.ylim(-1, a+2)
-plt.gca().set_aspect('equal', adjustable='box')  # Ensures equal aspect ratio
+plt.gca().set_aspect('equal', adjustable='box') 
 plt.title('Ваш квадрат накреслений на координатній сітці')
 plt.show()
 
