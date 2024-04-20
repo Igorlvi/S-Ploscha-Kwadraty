@@ -20,6 +20,7 @@ turtle.left(90)
 turtle.forward(a*37)
 turtle.left(90)
 turtle.forward(a*37)
+turtle.hideturtle()
 #Smatplotlib
 fig, ax = plt.subplots()
 square = patches.Rectangle((0, 0), a, a, edgecolor='grey', facecolor='none')
