@@ -23,6 +23,7 @@ turtle.forward(a*37)
 turtle.hideturtle()
 style = ('Courier', 15, 'italic')
 turtle.write(" Turtle накреслила\n Вам ваш квадрат", font=style, align='right')
+turtle.title('Ваш квадрат')
 #Smatplotlib
 fig, ax = plt.subplots()
 square = patches.Rectangle((0, 0), a, a, edgecolor='grey', facecolor='none')
